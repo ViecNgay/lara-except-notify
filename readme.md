@@ -24,12 +24,17 @@ If you are using laravel 5.5 or higher, skip this step. Go to step 3
 
 Step 3: Add event
 
-Open `app/Exceptions/Handler.php` and go to `report` action, and append
+Open `app/Exceptions/Handler.php` and go to `report` action, change to
 
 ```php
     // use Phambinh\Laraexcepnotify\Events\HasExceptionEvent;
 
-    if ($this->shouldReport($exception)) {
-        event(new HasExceptionEvent($exception));
+    public function report(Exception $exception)
+    {
+        parent::report($exception);
+
+        if ($this->shouldReport($exception)) {
+            event(new HasExceptionEvent($exception));
+        }
     }
 ```
