@@ -1,6 +1,6 @@
 <?php
 
-namespace Phambinh\Laraexcepnotify\Notifications;
+namespace ViecNgay\Laraexcepnotify\Notifications;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Notifications\Notification;

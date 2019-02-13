@@ -1,6 +1,6 @@
 <?php
 
-namespace Phambinh\Laraexcepnotify\Events;
+namespace ViecNgay\Laraexcepnotify\Events;
 
 use Illuminate\Broadcasting\Channel;
 use Illuminate\Queue\SerializesModels;

@@ -1,12 +1,12 @@
 <?php
 
-namespace Phambinh\Laraexcepnotify\Listeners;
+namespace ViecNgay\Laraexcepnotify\Listeners;
 
-use Phambinh\Laraexcepnotify\Events\HasExceptionEvent;
+use ViecNgay\Laraexcepnotify\Events\HasExceptionEvent;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
-use Phambinh\Laraexcepnotify\Facades\ExceptionNotify;
-use Phambinh\Laraexcepnotify\Notifications\HasExceptionNotification;
+use ViecNgay\Laraexcepnotify\Facades\ExceptionNotify;
+use ViecNgay\Laraexcepnotify\Notifications\HasExceptionNotification;
 
 class HasExceptionListener
 {

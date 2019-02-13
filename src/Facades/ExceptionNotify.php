@@ -1,6 +1,6 @@
 <?php
 
-namespace Phambinh\Laraexcepnotify\Facades;
+namespace ViecNgay\Laraexcepnotify\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Phambinh\Laraexcepnotify;
+namespace ViecNgay\Laraexcepnotify;
 
-use Phambinh\Laraexcepnotify\Facades\Notification;
+use ViecNgay\Laraexcepnotify\Facades\Notification;
 use Exception;
 
 class ExceptionNotify

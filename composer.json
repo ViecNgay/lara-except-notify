@@ -1,5 +1,5 @@
 {
-    "name": "phambinh/lara-except-notify",
+    "name": "viecngay/lara-except-notify",
     "description": "Notify when app have exceptions",
     "keywords": ["framework", "laravel", "notify", "exception"],
     "license": "MIT",
@@ -10,13 +10,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Phambinh\\Laraexcepnotify\\": "src/"
+            "ViecNgay\\Laraexcepnotify\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Phambinh\\Laraexcepnotify\\ServiceProvider"
+                "ViecNgay\\Laraexcepnotify\\ServiceProvider"
             ]
         }
     }

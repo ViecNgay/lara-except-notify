@@ -1,14 +1,14 @@
 <?php
 
-namespace Phambinh\Laraexcepnotify;
+namespace ViecNgay\Laraexcepnotify;
 
 use Illuminate\Foundation\Support\Providers\EventServiceProvider;
 
 class ServiceProvider extends EventServiceProvider
 {
     protected $listen = [
-        'Phambinh\Laraexcepnotify\Events\HasExceptionEvent' => [
-            'Phambinh\Laraexcepnotify\Listeners\HasExceptionListener'
+        'ViecNgay\Laraexcepnotify\Events\HasExceptionEvent' => [
+            'ViecNgay\Laraexcepnotify\Listeners\HasExceptionListener'
         ]
     ];
 

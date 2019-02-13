@@ -16,7 +16,7 @@ If you are using laravel 5.4, you have to open `config/app.php` and append provi
 ```php
 'providers' => [
     ...
-    Phambinh\Laraexcepnotify\ServiceProvider::class,
+    ViecNgay\Laraexcepnotify\ServiceProvider::class,
 ]
 ```
 
@@ -24,7 +24,7 @@ If you are using laravel 5.5 or higher, skip this step. Go to step 3
 
 Step 3: Publish vendor
 
-`php artisan vendor:publish --provider=Phambinh\Laraexcepnotify\ServiceProvider`
+`php artisan vendor:publish --provider=ViecNgay\Laraexcepnotify\ServiceProvider`
 
 Step 4: Config your channel
 
@@ -55,7 +55,7 @@ Step 4: Add event
 Open `app/Exceptions/Handler.php` and go to `report` action, change to
 
 ```php
-    // use Phambinh\Laraexcepnotify\Events\HasExceptionEvent;
+    // use ViecNgay\Laraexcepnotify\Events\HasExceptionEvent;
 
     public function report(Exception $exception)
     {
