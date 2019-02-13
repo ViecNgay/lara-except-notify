@@ -24,7 +24,7 @@ If you are using laravel 5.5 or higher, skip this step. Go to step 3
 
 Step 3: Publish vendor
 
-`php artisan vendor:publish --provider=ViecNgay\Laraexcepnotify\ServiceProvider`
+`php artisan vendor:publish --provider="ViecNgay\Laraexcepnotify\ServiceProvider"`
 
 Step 4: Config your channel
 
