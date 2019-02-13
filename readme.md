@@ -8,7 +8,7 @@ Notify to your slack channel when your project have exceptions
 Step 1: Required to your project
 Add your project via composer
 
-`composer required phambinh/lara-except-notify`
+`composer require phambinh/lara-except-notify`
 
 Step 2: Register service provider
 If you are using laravel 5.4, you have to open `config/app.php` and append providers
